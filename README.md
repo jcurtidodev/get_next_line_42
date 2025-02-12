@@ -78,7 +78,7 @@ cc -Wall -Werror -Wextra -D BUFFER_SIZE=42 <archivos>.c.
 
 ## 🏆 Reglas y Restricciones
 ⚠️ **El proyecto debe cumplir:**
-- Solo se pueden usar **`read`**, **`malloc`**, **`free`**.
+- Solo se pueden usar `read`, `malloc`, `free`.
 - No está permitido `lseek` para volver atrás en la lectura.
 - La función debe ser capaz de manejar múltiples descriptores de archivo simultáneamente.
 
