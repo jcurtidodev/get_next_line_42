@@ -1,8 +1,5 @@
 # 📜 Get Next Line
 
-## 🔔 Importante  
-La función **Get Next Line** ya ha sido añadida a **libft**, por lo que puedes usarla directamente sin necesidad de incluir archivos adicionales.
-
 ## 📌 Descripción
 **Get Next Line** es una función que permite leer un archivo línea por línea de manera eficiente.
 Se encarga de gestionar la lectura y el almacenamiento de los datos hasta encontrar un salto de línea (`'\n'`) o el final del archivo.
@@ -43,12 +40,6 @@ Se encarga de gestionar la lectura y el almacenamiento de los datos hasta encont
 
 ## 🚀 Uso
 ### 1️⃣ Incluiye el archivo de cabecera en tu código:
-
-#### - CON LIBFT
-```C
-#include "libft.h"
-```
-#### - SIN LIBFT Incluir `get_next_line.h`
 ```C
 #include "get_next_line.h"
 ```
@@ -57,8 +48,7 @@ Se encarga de gestionar la lectura y el almacenamiento de los datos hasta encont
 ```C
 #include <fcntl.h>
 #include <stdio.h>
-//#include "get_next_line.h"
-#include "libft.h"
+#include "get_next_line.h"
 
 int main(void)
 {
@@ -74,6 +64,9 @@ int main(void)
     return (0);
 }
 ```
+
+## 🔔 Importante  
+La función **Get Next Line** ya ha sido añadida a **libft**, por lo que puedes usarla directamente sin necesidad de incluir archivos adicionales.
 
 ## 📌 Consideraciones
 - `BUFFER_SIZE` Puede definirse al compilar.
