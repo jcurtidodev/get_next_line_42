@@ -78,7 +78,7 @@ int main(void)
 ## 📌 Consideraciones
 - `BUFFER_SIZE` Puede definirse al compilar.
 ```bash
-cc -Wall -Werror -Wextra **-D BUFFER_SIZE=42** <archivos>.c.
+cc -Wall -Werror -Wextra -D BUFFER_SIZE=42 <archivos>.c.
 ```
 - La función **gestiona y libera correctamente la memoria** cuando es necesario.
 - Si `read()` devuelve `0`, significa que se ha llegado al final del archivo.
