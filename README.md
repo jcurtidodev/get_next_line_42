@@ -83,5 +83,5 @@ cc -Wall -Werror -Wextra -D BUFFER_SIZE=42 <archivos>.c.
 - La función debe ser capaz de manejar múltiples descriptores de archivo simultáneamente.
 
 ## 🤝 Créditos
-Proyecto desarrollado por *`jcurtidodev` como parte del cursus de **42 School**.
+Proyecto desarrollado por `jcurtidodev` como parte del cursus de **42 School**.
 
