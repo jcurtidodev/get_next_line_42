@@ -66,7 +66,7 @@ int main(void)
 ```
 
 ## 🔔 Importante  
-La función **Get Next Line** ya ha sido añadida a **libft**, por lo que puedes usarla directamente sin necesidad de incluir archivos adicionales.
+La función `get_next_line` ya ha sido añadida a **libft**, por lo que puedes usarla directamente sin necesidad de incluir archivos adicionales.
 
 ## 📌 Consideraciones
 - `BUFFER_SIZE` Puede definirse al compilar.
